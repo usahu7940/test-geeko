@@ -1,0 +1,158 @@
+.main_section{
+    background-color: #E5E5E5;
+}
+.main-nav{
+    border-bottom: 3.3px solid 
+    rgba(219, 219, 219, 1);
+ 
+}
+.nav-link {
+    color: rgba(22, 22, 22, 1);
+}
+.nav-item{
+    position: relative;
+}
+.nav-link::after{
+    content: "fgfgfgfg";
+    width: 100%;
+    height: 2px;
+    background: rgb(119, 70, 209);
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+    opacity: 0;
+}
+.nav-item:hover .nav-link::after{
+    opacity: 1;
+}
+.nav-link.active::after{
+    opacity: 1;
+}
+.search_box{
+    /* left: 63.28%;
+    right: 15%;
+    top: 25%;
+    bottom: 25%; */
+    position: relative;
+    width: 50%;
+    padding: 10px;
+    background: #EDEDED;
+    border-radius: 25px;
+    border: none;
+    color: #868686;
+    outline: none;
+} 
+.likeee{
+    position:absolute;
+    bottom: 27px;
+    margin-left: -180px;
+}
+.link_item{
+    color: rgba(22, 22, 22, 1);
+}
+.alert{
+    /* position: relative; */
+    width: 10px;
+    height: 10px;
+   border-radius: 100%;
+   background: #EDEDED;
+    margin: 10px;
+    cursor: pointer;
+}
+.vector_image{
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    bottom: 0;
+    right: 0;
+}
+.point{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+}
+.ellipse{
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+}
+.drag{
+    cursor: pointer;
+    max-width: 700px;
+    min-height: 200px;
+    left: 573px;
+    top: 134px;
+    background: #FFFFFF;
+    border: 2px dashed #6246FE;
+    box-sizing: border-box;
+    border-radius: 23px;
+    box-shadow: 2px 2px 2px 2px rgba(137, 137, 137, 0.2);
+ 
+}
+.drag_heading{
+    font-weight: normal;
+    Font-style: Regular;
+    Font-size: 36px;   
+}
+.duration{
+    color: rgba(98, 70, 254, 1);
+    margin-top: -10px;
+    font-size: 10px;
+}
+.most_recent_btn{
+    border: none;
+}
+.box_heading{
+    font-size: 25px;
+    margin-bottom: -1px;
+}
+.box{
+    width : 130px;
+    border: 2px solid rgba(98, 70, 254, 1);
+    border-radius: 10px;
+    color: rgba(98, 70, 254, 1);
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.box_para{
+    color: rgba(137, 137, 137, 1);
+    margin-bottom: -1px;
+}
+.python_para{
+    font-size: 13px;
+}
+.python_para1{
+    font-size: 13px;
+    color: rgba(98, 70, 254, 1);
+    margin-bottom: -0.2px;
+}
+.python_heading{
+    font-size: 20px;
+}
+.learn_box{
+cursor: pointer;
+}
+.python_para,.python_heading{
+    margin-bottom: -0.2px;
+}
+.rectangle{
+    position: relative;
+}
+.time{
+    position: absolute;
+    margin-left: -30px;
+    background-color: rgb(127, 127, 133);
+    width: 30px;
+}
+.eye ,.like{
+    margin-right:  5px;
+    margin-top:  -4px;  
+}
+.like,.message{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.message{
+    margin-right: 5px;
+}
