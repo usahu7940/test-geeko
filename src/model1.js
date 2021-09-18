@@ -7,7 +7,7 @@ function Model() {
   return (
     <>
         <Header/>
-        <div>Modal code</div>
+        <div>Modal Sample</div>
     </>
   );
 }
