@@ -5,11 +5,26 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.css";
 import ModelOne from './model1';
+import PageFive from './pagefive';
+import Dashboard from "./dashboard"
+import PageSix from "./sixpage"
+import SevenPage from "./seven"
+
+import {
+  HashRouter as Router, Switch, Route
+} from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
-    <ModelOne/>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={App}></Route>
+        <Route path="/videos" component={PageFive}></Route>
+        <Route path="/leaderboard" component={PageSix}></Route>
+        <Route path="/dashboard" component={Dashboard}></Route>
+        <Route path="**" component={SevenPage}></Route>
+      </Switch>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

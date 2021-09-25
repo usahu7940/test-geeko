@@ -15,13 +15,14 @@ function App() {
       <Header/>
       <section className = "main_section">
         <div className = "py-4 "> 
-      <div className="container drag ">
+      <div className="container  ">
         <div className="row justify-content-center">
-          <div className="row justify-content-center py-5">
+          <div className ="col-md-8">
+          <div className="row justify-content-center drag py-5">
             <div className="col-md-2 ">
               <img src={arrow} className="py-2" />
             </div>
-            <div className="col-md-9 px-5">
+            <div className="col-md-7 px-5">
               <h1 className="drag_heading">Drag or select your video</h1>
               <p>Video formats supported: MP4, FLV, WEBM, & GIF</p>
               <p className="duration">
@@ -30,50 +31,49 @@ function App() {
             </div>
           </div>
         </div>
+        </div>
       </div>
       </div>
       <div className="container ">
         <div className="row justify-content-center">
           <div className="col-md-8 justify-content-center">
-            <div className="boxes">
-              <div className="row justify-content-center justify-content-between text-center">
-                <div className="col-md-2 box">
+            <div className="boxes justify-content-around">
+                 <div className=" box">
                   <h1 className="box_heading">23rd</h1>
                   <p className="box_para">rank</p>
                 </div>
-                <div className="col-md-2 box">
+                <div className=" box">
                   <h1 className="box_heading">25,563</h1>
                   <p className="box_para">viwes</p>
                 </div>
-                <div className="col-md-2 box">
+                <div className=" box">
                   <h1 className="box_heading">8,906</h1>
                   <p className="box_para">videos</p>
                 </div>
-                <div className="col-md-2 box">
+                <div className=" box">
                   <h1 className="box_heading">8,693</h1>
                   <p className="box_para">likes</p>
                 </div>
-                <div className="col-md-2 box">
-                  <h1 className="box_heading">15,000</h1>
-                  <p className="box_para">students</p>
+                <div className=" box">
+                  <h1 className="box_heading">8,693</h1>
+                  <p className="box_para">likes</p>
                 </div>
-                <div className="col-md-2 box">
+                <div className="box">
                   <h1 className="box_heading">52,000</h1>
                   <p className="box_para">worth gifts</p>
                 </div>
-              </div>
-            </div>
+                </div>
           </div>
         </div>
       </div>
-      <div className="container">
+        <div className="container">
         <div className="row justify-content-center py-3">
           <div className="col-md-9 ">
             <div className="row ">
               <div className="col-md-6">
                 <h6>My Videos </h6>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 recent_btn">
                 <button className="most_recent_btn ">
                   Most recent <img src={downarrow} />
                 </button>
@@ -86,13 +86,13 @@ function App() {
         <div className="row justify-content-center py-3">
           <div className="col-md-9 ">
             <div className="row learn_box">
-              <div className="col-md-2 ">
+              <div className="col-md-2 col-4">
                 <div>
                   <img src={rectangle} className="rectangle w-100" />
                   <img src={time} className="time" />
                 </div>
               </div>
-              <div className="col-md-10 ">
+              <div className="col-md-10 col-8">
                 <p className="python_para1">Python, Inheritance</p>
                 <h2 className="python_heading">
                   Learn how to set up the machines in the robotics belt
@@ -110,13 +110,13 @@ function App() {
           </div>
           <div className="col-md-9 py-3">
             <div className="row">
-              <div className="col-md-2 ">
+            <div className="col-md-2 col-4">
                 <div>
                   <img src={rectangle} className="rectangle w-100" />
-                  <img src={time} className="time" />{" "}
+                  <img src={time} className="time" />
                 </div>
               </div>
-              <div className="col-md-10 ">
+              <div className="col-md-10 col-8">
                 <p className="python_para1">Python, Inheritance</p>
                 <h2 className="python_heading">
                   Learn how to set up the machines in the robotics belt
@@ -132,15 +132,15 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="col-md-9 ">
+          <div className="col-md-9 py-3 ">
             <div className="row">
-              <div className="col-md-2 ">
+            <div className="col-md-2 col-4">
                 <div>
                   <img src={rectangle} className="rectangle w-100" />
-                  <img src={time} className="time" />{" "}
+                  <img src={time} className="time" />
                 </div>
               </div>
-              <div className="col-md-10 ">
+              <div className="col-md-10 col-8">
                 <p className="python_para1">Python, Inheritance</p>
                 <h2 className="python_heading">
                   Learn how to set up the machines in the robotics belt
@@ -158,13 +158,13 @@ function App() {
           </div>
           <div className="col-md-9 py-3">
             <div className="row">
-              <div className="col-md-2 ">
+            <div className="col-md-2 col-4">
                 <div>
                   <img src={rectangle} className="rectangle w-100" />
-                  <img src={time} className="time" />{" "}
+                  <img src={time} className="time" />
                 </div>
               </div>
-              <div className="col-md-10 ">
+              <div className="col-md-10 col-8">
                 <p className="python_para1">Python, Inheritance</p>
                 <h2 className="python_heading">
                   Learn how to set up the machines in the robotics belt
@@ -182,13 +182,13 @@ function App() {
           </div>
           <div className="col-md-9 ">
             <div className="row">
-              <div className="col-md-2 ">
+            <div className="col-md-2 col-4">
                 <div>
                   <img src={rectangle} className="rectangle w-100" />
-                  <img src={time} className="time" />{" "}
+                  <img src={time} className="time" />
                 </div>
               </div>
-              <div className="col-md-10 ">
+              <div className="col-md-10 col-8">
                 <p className="python_para1">Python, Inheritance</p>
                 <h2 className="python_heading">
                   Learn how to set up the machines in the robotics belt

@@ -1,14 +1,23 @@
-import React from "react";
+import { useState } from 'react';
+import Modal from 'react-bootstrap/Modal'
 
-import "./App.css";
-import Header from "./header";
 
-function Model() {
+
+function Example() {
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   return (
     <>
-        <Header/>
-        <div>Modal Sample</div>
+      <button variant="primary" onClick={handleShow}>
+        Launch demo modal
+      </button>
+
+
     </>
   );
 }
-export default Model;
+
+export default Example;
