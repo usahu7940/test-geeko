@@ -110,9 +110,11 @@ function pagefive() {
             </div>
            
             <div className="Learning_videos">
-              <div className ="col-md-2">
+              <div className ="col-md-2 juuu">
               <img src={rectangle} className="rectangle w-100" />
+              <div className ="time">
                   <img src={time} className="time" />
+                  </div>
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_para1">Python, Inheritance</p>

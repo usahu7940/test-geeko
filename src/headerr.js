@@ -197,19 +197,14 @@ function Headerr() {
                         <h6 className ="wrong-pass">wrong password</h6>
                         <div className = "row time_boxes">
                         <div className = "col-1 six_box">1
-
                         </div>
                         <div className = "col-1 six_box ">2
-
                         </div>
                         <div className = "col-1  six_box">2
-
                         </div>
                         <div className = "col-1 six_box">2
-
                         </div>
                         <div className = "col-1 six_box">2
-
                         </div>
                         <div className = "col-1 six_box">2
                     </div> 
@@ -228,5 +223,4 @@ function Headerr() {
             </>
     )
 }
-
 export default Headerr;

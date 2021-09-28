@@ -15,8 +15,13 @@ import Group from "./images/Group 391.png"
 import Groupt from "./images/Group 390.png"
 import "./App.css";
 import Headerr from "./headerr";
+import { NavLink ,Link } from "react-router-dom";
+import { useState } from 'react';
+import Modal from 'react-bootstrap/Modal'
 
-function dashboard() {
+
+function Dashboard() {
+  
   return (
     <>
         <Headerr/>
@@ -88,10 +93,10 @@ function dashboard() {
           </div>
         
           </div>
-    
+        
     </>
   );
 }
-export default dashboard;
+export default Dashboard;
 
 
