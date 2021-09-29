@@ -35,23 +35,25 @@ function sixpage() {
                           <img src = {Ellipse} className = "w-100"/>
                          </div>
                         <div>
-                        <h6 className="text-center">Jenny Sibas</h6>
-                        <p className="text-center">1m views</p>
+                        <h6 className="text-center" id ="aroma_name_head">Jenny Sibas</h6>
+                        <p className="text-center" id ="aroma_name_view">1m views</p>
                         </div>
                         </div>
-                        <div className="col-lg-2 col-4">
+                        <div className="col-lg-2 col-4 first_prise_div">
                         <div>
                           <h6 className="first-prize text-center">1st</h6>
                           </div>
-                          <div className="taj">
-                         <img src={Taj} className ="taj_images " />
-                       </div>
-                         <div className = "Aroma_Pavl">
+                          <div className = "aroma_taj">
+                          <div className = "aroma_pavlo">
                           <img src = {Aroma} className = "w-100"/>
                          </div>
                          <div>
-                         <h6 className="text-center">Aroma Pavlo</h6>
-                        <p className="text-center">5.8m views</p>
+                         <img src={Taj} className ="taj_images " />
+                       </div>  
+                       </div>
+                         <div>
+                         <h6 className="text-center" id ="aroma_name_head">Aroma Pavlo</h6>
+                        <p className="text-center "id ="aroma_name_view">5.8m views</p>
                          </div>
                         </div>
                         <div className="col-lg-2 col-4">
@@ -62,8 +64,8 @@ function sixpage() {
                           <img src = {Rock} className = "w-100"/>
                          </div>
                          <div>
-                         <h6 className="text-center">Rock Devian</h6>
-                        <p className="text-center">3m views</p>
+                         <h6 className="text-center" id ="aroma_name_head">Rock Devian</h6>
+                        <p className="text-center" id ="aroma_name_view">3m views</p>
                          </div>
                         </div>
                       </div>
@@ -73,7 +75,7 @@ function sixpage() {
                          <span className ="px-2">4</span>
                         </div>
                         <div className = "images_saiima"> 
-                        <img src={Saiima} className="saiima mx-2" /> <span>Siama Westro</span>
+                        <img src={Saiima} className="saiima mx-2" /> <span className ="saiima_head">Siama Westro</span>
                         </div>
                         <div className ='views '>
                           <h6>9,66,233 views <img src ={Upper}/></h6>
@@ -86,7 +88,7 @@ function sixpage() {
                          <span className ="px-2">5</span>
                         </div>
                         <div className = "images_saiima"> 
-                        <img src={Saiima} className="saiima mx-2" /> <span>Siama Westro</span>
+                        <img src={Saiima} className="saiima mx-2" /> <span className ="saiima_head">Siama Westro</span>
                         </div>
                         <div className ='views '>
                           <h6>9,66,233 views <img src ={Upper}/></h6>
@@ -99,7 +101,7 @@ function sixpage() {
                          <span className ="px-2">6</span>
                         </div>
                         <div className = "images_saiima"> 
-                        <img src={Saiima} className="saiima mx-2" /> <span>Siama Westro</span>
+                        <img src={Saiima} className="saiima mx-2" /> <span className ="saiima_head">Siama Westro</span>
                         </div>
                         <div className ='views '>
                           <h6>9,66,233 views <img src ={Lower}/></h6>
@@ -112,7 +114,7 @@ function sixpage() {
                          <span className ="px-2">7</span>
                         </div>
                         <div className = "images_saiima"> 
-                        <img src={Saiima} className="saiima mx-2" /> <span>Siama Westro</span>
+                        <img src={Saiima} className="saiima mx-2" /> <span className ="saiima_head">Siama Westro</span>
                         </div>
                         <div className ='views '>
                           <h6>9,66,233 views <img src ={Lower}/></h6>
@@ -125,7 +127,7 @@ function sixpage() {
                          <span className ="px-2">8</span>
                         </div>
                         <div className = "images_saiima"> 
-                        <img src={Saiima} className="saiima mx-2" /> <span>Siama Westro</span>
+                        <img src={Saiima} className="saiima mx-2" /> <span className ="saiima_head">Siama Westro</span>
                         </div>
                         <div className ='views '>
                           <h6>9,66,233 views <img src ={Upper}/></h6>
@@ -138,7 +140,7 @@ function sixpage() {
                          <span className ="px-2">9</span>
                         </div>
                         <div className = "images_saiima"> 
-                        <img src={Saiima} className="saiima mx-2" /> <span>Siama Westro</span>
+                        <img src={Saiima} className="saiima mx-2" /> <span className ="saiima_head">Siama Westro</span>
                         </div>
                         <div className ='views '>
                           <h6>9,66,233 views <img src ={Upper}/></h6>
@@ -151,7 +153,7 @@ function sixpage() {
                          <span className ="px-2">10</span>
                         </div>
                         <div className = "images_saiima"> 
-                        <img src={Saiima} className="saiima mx-2" /> <span>Siama Westro</span>
+                        <img src={Saiima} className="saiima mx-2" /> <span className ="saiima_head">Siama Westro</span>
                         </div>
                         <div className ='views '>
                           <h6>9,66,233 views <img src ={Dot}/></h6>
@@ -164,7 +166,7 @@ function sixpage() {
                          <span className ="px-2">11</span>
                         </div>
                         <div className = "images_saiima"> 
-                        <img src={Saiima} className="saiima mx-2" /> <span>Siama Westro</span>
+                        <img src={Saiima} className="saiima mx-2" /> <span className ="saiima_head">Siama Westro</span>
                         </div>
                         <div className ='views '>
                           <h6>9,66,233 views <img src ={Dot}/></h6>
@@ -177,7 +179,7 @@ function sixpage() {
                          <span className ="px-2">12</span>
                         </div>
                         <div className = "images_saiima"> 
-                        <img src={Saiima} className="saiima mx-2" /> <span>Siama Westro</span>
+                        <img src={Saiima} className="saiima mx-2" /> <span className ="saiima_head">Siama Westro</span>
                         </div>
                         <div className ='views '>
                           <h6>9,66,233 views <img src ={Upper}/></h6>

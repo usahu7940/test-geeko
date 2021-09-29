@@ -7,11 +7,17 @@ import time from "./images/02_30.png";
 import eye from "./images/eye (1).png";
 import like from "./images/like.png";
 import message from "./images/message.png";
+import { useState } from "react";
+import { NavLink, Link } from "react-router-dom";
+import Accordion from 'react-bootstrap/Accordion'
 
 import "./App.css";
 import Header from "./header";
 
-function pagefive() {
+function VideoStatus() {
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <>
         <Header/>
@@ -36,7 +42,7 @@ function pagefive() {
                             <label for="musicCheck" class="form-check-label disabled">Physics</label>
               </div>  
             </div>
-            <div className ="topics py-2">
+            <div className ="topics">
               <h6 className ="heading">Topic</h6>
             </div>
             <div className ='laws'>
@@ -58,7 +64,7 @@ function pagefive() {
               </div>  
             </div>
             <div>
-            <div className ="uploads py-2">
+            <div className ="uploads">
               <h6 className ="heading">Upload Date</h6>
             </div>
             <div className ="dates">
@@ -84,11 +90,11 @@ function pagefive() {
             </div>
             </div>
           </div>
-          <div className="col-lg-10 videos_container ">
-          
-              <h6 className ="vdo_heading py-2">My Videos</h6>
-            
-            <div className="Learning_videos">
+          <div className="col-md-10 videos_container ">
+          <div className ="">
+              <h6 className ="vdo_heading">My Videos</h6>
+            </div>
+           <div className="Learning_videos" onClick={handleShow}>
               <div className ="col-md-2">
               <img src={rectangle} className="rectangle w-100" />
                   <img src={time} className="time" />
@@ -99,19 +105,21 @@ function pagefive() {
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
-                  We provide you the best test series for Class XI,XII, JEE,
-                  NEET chapterwise, which will be scheduled for whole year.
+                We provide you the best test series for Class XI,XII, JEE, NEET chapterwise, which will be scheduled for whole year.
+The test series follows very  logical sequence of Basic to Advance
                 </p>
-                <div>
-                  <img src={eye} className="eye" />56,621 <img src={like} className="like" />650 <img src={message}
-                    className="message" />57
+                <div className = "disapproved_div">
+                  <span className = "disapproved">Disapproved</span>
                 </div>   
               </div>
             </div>
+           
             <div className="Learning_videos">
-              <div className ="col-md-2">
+            <div className ="col-md-2">
               <img src={rectangle} className="rectangle w-100" />
+              <div className ="time">
                   <img src={time} className="time" />
+                  </div>
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
@@ -119,54 +127,12 @@ function pagefive() {
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
-                  We provide you the best test series for Class XI,XII, JEE,
-                  NEET chapterwise, which will be scheduled for whole year.
+                We provide you the best test series for Class XI,XII, JEE, NEET chapterwise, which will be scheduled for whole year.
+The test series follows very  logical sequence of Basic to Advance
                 </p>
-                <div>
-                  <img src={eye} className="eye" />56,621 <img src={like} className="like" />650 <img src={message}
-                    className="message" />57
-                </div>   
-              </div>
-            </div>
-            <div className="Learning_videos">
-              <div className ="col-md-2">
-              <img src={rectangle} className="rectangle w-100" />
-                  <img src={time} className="time" />
-              </div>
-              <div className = 'col-md-8 para_heading'>
-              <p className="python_para1">Python, Inheritance</p>
-                <h2 className="python_heading">
-                  Learn how to set up the machines in the robotics belt
-                </h2>
-                <p className="python_para">
-                  We provide you the best test series for Class XI,XII, JEE,
-                  NEET chapterwise, which will be scheduled for whole year.
-                </p>
-                <div>
-                  <img src={eye} className="eye" />56,621 <img src={like} className="like" />650 <img src={message}
-                    className="message" />57
-                </div>   
-              </div>
-            </div>
-            
-            <div className="Learning_videos">
-              <div className ="col-md-2">
-              <img src={rectangle} className="rectangle w-100" />
-                  <img src={time} className="time" />
-              </div>
-              <div className = 'col-md-8 para_heading'>
-              <p className="python_para1">Python, Inheritance</p>
-                <h2 className="python_heading">
-                  Learn how to set up the machines in the robotics belt
-                </h2>
-                <p className="python_para">
-                  We provide you the best test series for Class XI,XII, JEE,
-                  NEET chapterwise, which will be scheduled for whole year.
-                </p>
-                <div>
-                  <img src={eye} className="eye" />56,621 <img src={like} className="like" />650 <img src={message}
-                    className="message" />57
-                </div>   
+                <div className = "disapproved_div">
+                  <span className = "disapproved">Disapproved</span>
+                </div>  
               </div>
             </div>
            
@@ -181,13 +147,12 @@ function pagefive() {
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
-                  We provide you the best test series for Class XI,XII, JEE,
-                  NEET chapterwise, which will be scheduled for whole year.
+                We provide you the best test series for Class XI,XII, JEE, NEET chapterwise, which will be scheduled for whole year.
+The test series follows very  logical sequence of Basic to Advance
                 </p>
-                <div>
-                  <img src={eye} className="eye" />56,621 <img src={like} className="like" />650 <img src={message}
-                    className="message" />57
-                </div>   
+                <div className = "approved_div">
+                  <span className = "approved">Approved</span>
+                </div>  
               </div>
             </div>
             
@@ -202,13 +167,32 @@ function pagefive() {
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
-                  We provide you the best test series for Class XI,XII, JEE,
-                  NEET chapterwise, which will be scheduled for whole year.
+                We provide you the best test series for Class XI,XII, JEE, NEET chapterwise, which will be scheduled for whole year.
+The test series follows very  logical sequence of Basic to Advance
                 </p>
-                <div>
-                  <img src={eye} className="eye" />56,621 <img src={like} className="like" />650 <img src={message}
-                    className="message" />57
-                </div>   
+                <div className = "Pending_div">
+                  <span className = "Pending">Pending</span>
+                </div>  
+              </div>
+            </div>
+           
+            <div className="Learning_videos">
+              <div className ="col-md-2">
+              <img src={rectangle} className="rectangle w-100" />
+                  <img src={time} className="time" />
+              </div>
+              <div className = 'col-md-8 para_heading'>
+              <p className="python_para1">Python, Inheritance</p>
+                <h2 className="python_heading">
+                  Learn how to set up the machines in the robotics belt
+                </h2>
+                <p className="python_para">
+                We provide you the best test series for Class XI,XII, JEE, NEET chapterwise, which will be scheduled for whole year.
+The test series follows very  logical sequence of Basic to Advance
+                </p>
+                <div className = "Pending_div">
+                  <span className = "Pending">Pending</span>
+                </div>  
               </div>
             </div>
             
@@ -223,13 +207,12 @@ function pagefive() {
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
-                  We provide you the best test series for Class XI,XII, JEE,
-                  NEET chapterwise, which will be scheduled for whole year.
+                We provide you the best test series for Class XI,XII, JEE, NEET chapterwise, which will be scheduled for whole year.
+The test series follows very  logical sequence of Basic to Advance
                 </p>
-                <div>
-                  <img src={eye} className="eye" />56,621 <img src={like} className="like" />650 <img src={message}
-                    className="message" />57
-                </div>   
+                <div className = "disapproved_div">
+                  <span className = "disapproved">Disapproved</span>
+                </div>    
               </div>
             </div>
             
@@ -244,22 +227,45 @@ function pagefive() {
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
-                  We provide you the best test series for Class XI,XII, JEE,
-                  NEET chapterwise, which will be scheduled for whole year.
+                We provide you the best test series for Class XI,XII, JEE, NEET chapterwise, which will be scheduled for whole year.
+The test series follows very  logical sequence of Basic to Advance
                 </p>
-                <div>
-                  <img src={eye} className="eye" />56,621 <img src={like} className="like" />650 <img src={message}
-                    className="message" />57
+                <div className = "Pending_div">
+                  <span className = "Pending">Pending</span>
+                </div>    
+              </div>
+            </div>
+            
+            <div className="Learning_videos">
+              <div className ="col-md-2">
+              <img src={rectangle} className="rectangle w-100" />
+                  <img src={time} className="time" />
+              </div>
+              <div className = 'col-md-8 para_heading'>
+              <p className="python_para1">Python, Inheritance</p>
+                <h2 className="python_heading">
+                  Learn how to set up the machines in the robotics belt
+                </h2>
+                <p className="python_para">
+                We provide you the best test series for Class XI,XII, JEE, NEET chapterwise, which will be scheduled for whole year.
+The test series follows very  logical sequence of Basic to Advance
+                </p>
+                <div className = "disapproved_div">
+                  <span className = "disapproved">Disapproved</span>
                 </div>   
               </div>
             </div>
           </div>
         </div>
+        
        </div>
+
+
+       
     </>
   );
 }
-export default pagefive;
+export default VideoStatus;
 
 
 
