@@ -790,14 +790,14 @@ cursor: pointer;
     padding-right: 10px;
 }
 .Uploading{
-    background-color: blue;
+    background-color: rgba(98, 70, 254, 1);
     /* margin-top: 10px; */
-    padding: 5px 0px 5px 5px;
+    padding: 5px 2px 2px 2px;
     margin-bottom: 0;
     border-radius: 10px 0px 0px 10px;
 }
 .Rhs_heading{
-    margin-top: auto;
+    margin: 0;
     font-weight: 700;
 }
 .detail_Qa{
@@ -1081,7 +1081,7 @@ cursor: pointer;
 #options{
     /* flex-wrap: wrap; */
     margin-left: 2px;
-    margin-top: 10px;
+    margin-top: 3px;
 }
 #option-1{
     position: relative;
