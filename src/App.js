@@ -246,6 +246,7 @@ function App() {
           </div>
         </section>
       </div>
+      <div>
       <Modal contentClassName = "vdo"  dialogClassName = "vd" show={show} onHide={handleClose} >
         <Modal.Header  className = "selecet_video" closeButton>
         <h6 className ='Rhs_heading'>What is the difference between RHS and LHS?</h6>
@@ -434,7 +435,7 @@ function App() {
              </div>
         </Modal.Body>
       </Modal>
-
+      </div>
 
 
 
@@ -478,19 +479,19 @@ function App() {
                   <div  id =  "option-1">
                   <div>
                     <img src = {EmptyCheck} className = "option_image_logo"/>
-                  <h6 className = "option_heading">Option 1</h6>
+                  <h6 className = "option_heading">Option 2</h6>
                   </div>
                   </div>
                   <div  id =  "option-1">
                   <div>
                     <img src = {EmptyCheck} className = "option_image_logo"/>
-                  <h6 className = "option_heading">Option 1</h6>
+                  <h6 className = "option_heading">Option 3</h6>
                   </div>
                   </div>
                   <div  id =  "option-1">
                   <div>
                     <img src = {EmptyCheck} className = "option_image_logo"/>
-                  <h6 className = "option_heading">Option 1</h6>
+                  <h6 className = "option_heading">Option 4</h6>
                   </div>
                   </div>
                   <div  id =  "plus">
@@ -521,19 +522,19 @@ function App() {
                   <div  id =  "option-1">
                   <div>
                     <img src = {EmptyCheck} className = "option_image_logo"/>
-                  <h6 className = "option_heading">Option 1</h6>
+                  <h6 className = "option_heading">Option 2</h6>
                   </div>
                   </div>
                   <div  id =  "option-1">
                   <div>
                     <img src = {OptionImage} className = "option_image_logo"/>
-                  <h6 className = "option_heading">Option 1</h6>
+                  <h6 className = "option_heading">Option 3</h6>
                   </div>
                   </div>
                   <div  id =  "option-1">
                   <div>
                     <img src = {EmptyCheck} className = "option_image_logo"/>
-                  <h6 className = "option_heading">Option 1</h6>
+                  <h6 className = "option_heading">Option 4</h6>
                   </div>
                   </div>
                   <div  id =  "plus">
@@ -565,19 +566,19 @@ function App() {
                   <div  id =  "option-1">
                   <div>
                     <img src = {EmptyCheck} className = "option_image_logo"/>
-                  <h6 className = "option_heading">Option 1</h6>
+                  <h6 className = "option_heading">Option 2</h6>
                   </div>
                   </div>
                   <div  id =  "option-1">
                   <div>
                     <img src = {EmptyCheck} className = "option_image_logo"/>
-                  <h6 className = "option_heading">Option 1</h6>
+                  <h6 className = "option_heading">Option 3</h6>
                   </div>
                   </div>
                   <div  id =  "option-1">
                   <div>
                     <img src = {EmptyCheck} className = "option_image_logo"/>
-                  <h6 className = "option_heading">Option 1</h6>
+                  <h6 className = "option_heading">Option 4</h6>
                   </div>
                   </div>
                   <div  id =  "plus">

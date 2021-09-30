@@ -231,8 +231,9 @@ cursor: pointer;
 }
 #aroma_name_view{
     font-family: 500;
-    font-size: 15px;
+    font-size: 12px;
     margin-top: -7px;
+    font-weight: bold;
 }
 .aroma_pavlo{
     margin-top: -5px;
@@ -250,7 +251,7 @@ cursor: pointer;
 }
 .taj_images{
     position: absolute;
-    left: 32%;
+    left: 35%;
     top: -15%;
     width: 32%;
     
@@ -258,13 +259,24 @@ cursor: pointer;
 .first-prize{
     margin-bottom: 30px;
     font-weight: bold;
+    margin-top: -13px;
+
 }
 .third-prize,.Second-prize{
     margin-top: 50px;
     font-weight: bold;
 }
+.number{
+    font-size: 13px;
+    font-weight: bold;
+}
+.upper_image{
+    width: 12px;
+   
+}
 .saiima_head{
     font-weight: 600;
+    font-size: 13px;
 }
 .saiima_westro{
     background-color: rgba(252, 252, 252, 1);
@@ -275,11 +287,17 @@ cursor: pointer;
 }
 .saiima{
     width: 20%;
+    
 }
 .views{
+    
      display: flex;
      margin-left: auto;
      margin-top: auto;
+}
+.views h6{
+    font-size: 13px;
+    font-weight: 700;
 }
 
 /* category */
@@ -740,12 +758,15 @@ cursor: pointer;
 }.vdo,.vd{
     max-width: 800px !important;
     min-height: 100% !important;
+    border-radius: 20px 20px 20px 20px !important;
 }
-/* #drag_video{
+.selecet_video{
+    border-radius: 20px 20px 0px 0px !important;
+}
+#drag_video{
     background-color: rgb(255, 255, 255);
-    max-width: 800px;
-    padding-top: 50px;
-} */
+    border-radius: 0px 0px 20px 20px ;
+}
 
 .upload_per_modal{
     display: flex;
@@ -1091,9 +1112,9 @@ cursor: pointer;
     margin-top: auto;
 }
 .plus_logo{
-    top: 8px;
-    width: 24px;
-    left: 8px;
+    top: 11px;
+    width: 17px;
+    left: 11px;
     position: absolute;
 }
 #plusss div {
