@@ -784,6 +784,7 @@ cursor: pointer;
     text-align: center;
     border-bottom: 2px solid rgba(197, 197, 197, 1);
     position: relative;
+    width: 26.333333% !important;
 }
 .detail_qa{
     position: absolute;
