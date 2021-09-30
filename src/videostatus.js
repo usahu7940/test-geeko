@@ -24,10 +24,11 @@ function VideoStatus() {
        <div className = "container-fluid px-0">
         <div className = "row ">
           <div className = "col-lg-2 p-0">
-            <div className = "category py-2">
-            <h6 className ="heading"> Categories</h6>
-            </div>
-            <div className = "pcm">
+          <Accordion defaultActiveKey="0">
+  <Accordion.Item eventKey="0">
+    <Accordion.Header bsPrefix id = "category-head">Category</Accordion.Header>
+    <Accordion.Body bsPrefix id = 'categor_body'>
+            
             <div className =' form-check'>
                             <input type="checkbox" class="form-check-input" id="musicCheck disabled"></input>
                             <label for="musicCheck" class="form-check-label disabled">Physics</label>
@@ -41,12 +42,15 @@ function VideoStatus() {
                             <input type="checkbox" class="form-check-input" id="musicCheck disabled"></input>
                             <label for="musicCheck" class="form-check-label disabled">Physics</label>
               </div>  
-            </div>
-            <div className ="topics">
-              <h6 className ="heading">Topic</h6>
-            </div>
-            <div className ='laws'>
-            <div className =' form-check '>
+            
+            </Accordion.Body>
+  </Accordion.Item>
+  </Accordion>
+            <Accordion defaultActiveKey="0">
+  <Accordion.Item eventKey="0">
+    <Accordion.Header bsPrefix id = "category-head">Topic</Accordion.Header>
+    <Accordion.Body bsPrefix id = 'categor_body'>
+    <div className =' form-check '>
                              <input type="checkbox" class="form-check-input" id="Ohm’sCheck disabled"></input>
                             <label for="Ohm’sCheck" class="form-check-label disabled">Ohm’s Law</label> 
             </div>
@@ -62,12 +66,16 @@ function VideoStatus() {
                             <input type="checkbox" class="form-check-input" id="BattleCheck"></input>
                             <label for="BattleCheck" class="form-check-label">Battle of 1984</label>               
               </div>  
-            </div>
-            <div>
-            <div className ="uploads">
-              <h6 className ="heading">Upload Date</h6>
-            </div>
-            <div className ="dates">
+    </Accordion.Body>
+  </Accordion.Item>
+  </Accordion>
+ 
+            
+            <Accordion defaultActiveKey="0">
+  <Accordion.Item eventKey="0">
+    <Accordion.Header  bsPrefix id = "category-head">Upload Date</Accordion.Header>
+    <Accordion.Body bsPrefix id = 'categor_body'>
+           
             <div className =' form-check '>
                              <input type="checkbox" class="form-check-input" id="CenterCheck disabled"></input>
                             <label for="CenterCheck" class="form-check-label disabled">23 August 2021</label> 
@@ -84,11 +92,21 @@ function VideoStatus() {
                             <input type="checkbox" class="form-check-input" id="musicCheck"></input>
                             <label for="musicCheck" class="form-check-label">15 August 2021</label>               
               </div>  
-              </div>
-              <div className ="uploads">
-              <h6 className ="heading">Video Tags</h6>
-            </div>
-            </div>
+              </Accordion.Body>
+  </Accordion.Item>
+  </Accordion>
+             
+
+
+
+             
+            <Accordion defaultActiveKey="0">
+  <Accordion.Item eventKey="0">
+    <Accordion.Header bsPrefix id = "category-head">Video Tag</Accordion.Header>
+    <Accordion.Body bsPrefix id = 'categor_body'>
+    </Accordion.Body>
+  </Accordion.Item>
+  </Accordion>
           </div>
           <div className="col-md-10 videos_container ">
           <div className ="">
@@ -100,7 +118,7 @@ function VideoStatus() {
                   <img src={time} className="time" />
               </div>
               <div className = 'col-md-8 para_heading'>
-              <p className="python_para1">Python, Inheritance</p>
+              <p className="python_class">Class 12, Commerce, Chapter 13</p>
                 <h2 className="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
@@ -122,7 +140,7 @@ The test series follows very  logical sequence of Basic to Advance
                   </div>
               </div>
               <div className = 'col-md-8 para_heading'>
-              <p className="python_para1">Python, Inheritance</p>
+              <p className="python_class">Class 12, Commerce, Chapter 13</p>
                 <h2 className="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
@@ -142,7 +160,7 @@ The test series follows very  logical sequence of Basic to Advance
                   <img src={time} className="time" />
               </div>
               <div className = 'col-md-8 para_heading'>
-              <p className="python_para1">Python, Inheritance</p>
+              <p className="python_class">Class 12, Commerce, Chapter 13</p>
                 <h2 className="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
@@ -162,7 +180,7 @@ The test series follows very  logical sequence of Basic to Advance
                   <img src={time} className="time" />
               </div>
               <div className = 'col-md-8 para_heading'>
-              <p className="python_para1">Python, Inheritance</p>
+              <p className="python_class">Class 12, Commerce, Chapter 13</p>
                 <h2 className="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
@@ -182,7 +200,7 @@ The test series follows very  logical sequence of Basic to Advance
                   <img src={time} className="time" />
               </div>
               <div className = 'col-md-8 para_heading'>
-              <p className="python_para1">Python, Inheritance</p>
+              <p className="python_class">Class 12, Commerce, Chapter 13</p>
                 <h2 className="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
@@ -202,7 +220,7 @@ The test series follows very  logical sequence of Basic to Advance
                   <img src={time} className="time" />
               </div>
               <div className = 'col-md-8 para_heading'>
-              <p className="python_para1">Python, Inheritance</p>
+              <p className="python_class">Class 12, Commerce, Chapter 13</p>
                 <h2 className="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
@@ -222,7 +240,7 @@ The test series follows very  logical sequence of Basic to Advance
                   <img src={time} className="time" />
               </div>
               <div className = 'col-md-8 para_heading'>
-              <p className="python_para1">Python, Inheritance</p>
+              <p className="python_class">Class 12, Commerce, Chapter 13</p>
                 <h2 className="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
@@ -242,7 +260,7 @@ The test series follows very  logical sequence of Basic to Advance
                   <img src={time} className="time" />
               </div>
               <div className = 'col-md-8 para_heading'>
-              <p className="python_para1">Python, Inheritance</p>
+              <p className="python_class">Class 12, Commerce, Chapter 13</p>
                 <h2 className="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>

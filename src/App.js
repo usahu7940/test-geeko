@@ -66,29 +66,29 @@ function App() {
           </div>
           <div className="container ">
             <div className="row justify-content-center">
-              <div className="col-md-8 justify-content-center">
-                <div className="boxes justify-content-around">
-                  <div className=" box">
+              <div className="col-md-12 justify-content-center">
+                <div className="boxes justify-content: center;">
+                  <div className=" box me-2 mt-1">
                     <h1 className="box_heading">23rd</h1>
                     <p className="box_para">rank</p>
                   </div>
-                  <div className=" box">
+                  <div className=" box me-2 mt-1">
                     <h1 className="box_heading">25,563</h1>
                     <p className="box_para">viwes</p>
                   </div>
-                  <div className=" box">
+                  <div className=" box me-2 mt-1">
                     <h1 className="box_heading">8,906</h1>
                     <p className="box_para">videos</p>
                   </div>
-                  <div className=" box">
+                  <div className=" box me-2 mt-1">
                     <h1 className="box_heading">8,693</h1>
                     <p className="box_para">likes</p>
                   </div>
-                  <div className=" box">
+                  <div className=" box me-2 mt-1">
                     <h1 className="box_heading">8,693</h1>
                     <p className="box_para">likes</p>
                   </div>
-                  <div className="box">
+                  <div className="box me-2 mt-1">
                     <h1 className="box_heading">52,000</h1>
                     <p className="box_para">worth gifts</p>
                   </div>
@@ -100,13 +100,11 @@ function App() {
             <div className="row justify-content-center py-3">
               <div className="col-md-9 ">
                 <div className="row ">
-                  <div className="col-md-6">
-                    <h6>My Videos </h6>
-                  </div>
-                  <div className="col-md-6 recent_btn">
-                    <button className="most_recent_btn ">
-                      Most recent <img src={downarrow} />
-                    </button>
+                  <div className="col-md-12 d-flex myvideo_div justify-content-space-between">
+                    <h6 className = "my_video">My Videos </h6>
+                    <select className = "selector-box">
+                      <option>Most recent</option>
+                    </select>
                   </div>
                 </div>
               </div>

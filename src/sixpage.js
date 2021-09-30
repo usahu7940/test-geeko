@@ -17,7 +17,9 @@ function sixpage() {
       <Header />
       <div className="rank_container">
         <div className = 'last_year1'>
-      <span className = 'last_year'>Last Year <img src = {Vector1}/></span>
+      <select className = "selector-box">
+        <option >Last Year</option>
+      </select>
       </div>
         <div className="container ">
           <div className="row justify-content-center">

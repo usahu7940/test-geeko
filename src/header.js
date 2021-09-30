@@ -59,7 +59,7 @@ function Header() {
   <img src={ellipse} className="ellipse" />
   </Dropdown.Toggle>
 
-  <Dropdown.Menu>
+  <Dropdown.Menu prefix id = "drop__menu">
   <Dropdown.Item ><NavLink className="nav-link " to = {""} >
     my profle</NavLink>
      </Dropdown.Item>
@@ -77,6 +77,7 @@ function Header() {
                        
                     </div>
                 </div>
+               
             </nav>
         </header>
     )

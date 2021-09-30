@@ -7,6 +7,7 @@ import time from "./images/02_30.png";
 import eye from "./images/eye (1).png";
 import like from "./images/like.png";
 import message from "./images/message.png";
+import Accordion from 'react-bootstrap/Accordion'
 
 import "./App.css";
 import Header from "./header";
@@ -15,13 +16,21 @@ function pagefive() {
   return (
     <>
         <Header/>
-       <div className = "container-fluid px-0">
+       <div className = "container-fluid ">
         <div className = "row ">
           <div className = "col-lg-2 p-0">
-            <div className = "category py-2">
-            <h6 className ="heading"> Categories</h6>
-            </div>
-            <div className = "pcm">
+            
+           
+            
+           
+            
+            <div>
+           
+            <Accordion defaultActiveKey="0">
+  <Accordion.Item eventKey="0">
+    <Accordion.Header bsPrefix id = "category-head">Category</Accordion.Header>
+    <Accordion.Body bsPrefix id = 'categor_body'>
+            
             <div className =' form-check'>
                             <input type="checkbox" class="form-check-input" id="musicCheck disabled"></input>
                             <label for="musicCheck" class="form-check-label disabled">Physics</label>
@@ -35,12 +44,15 @@ function pagefive() {
                             <input type="checkbox" class="form-check-input" id="musicCheck disabled"></input>
                             <label for="musicCheck" class="form-check-label disabled">Physics</label>
               </div>  
-            </div>
-            <div className ="topics py-2">
-              <h6 className ="heading">Topic</h6>
-            </div>
-            <div className ='laws'>
-            <div className =' form-check '>
+            
+            </Accordion.Body>
+  </Accordion.Item>
+  </Accordion>
+            <Accordion defaultActiveKey="0">
+  <Accordion.Item eventKey="0">
+    <Accordion.Header bsPrefix id = "category-head">Topic</Accordion.Header>
+    <Accordion.Body bsPrefix id = 'categor_body'>
+    <div className =' form-check '>
                              <input type="checkbox" class="form-check-input" id="Ohm’sCheck disabled"></input>
                             <label for="Ohm’sCheck" class="form-check-label disabled">Ohm’s Law</label> 
             </div>
@@ -56,12 +68,16 @@ function pagefive() {
                             <input type="checkbox" class="form-check-input" id="BattleCheck"></input>
                             <label for="BattleCheck" class="form-check-label">Battle of 1984</label>               
               </div>  
-            </div>
-            <div>
-            <div className ="uploads py-2">
-              <h6 className ="heading">Upload Date</h6>
-            </div>
-            <div className ="dates">
+    </Accordion.Body>
+  </Accordion.Item>
+  </Accordion>
+ 
+            
+            <Accordion defaultActiveKey="0">
+  <Accordion.Item eventKey="0">
+    <Accordion.Header  bsPrefix id = "category-head">Upload Date</Accordion.Header>
+    <Accordion.Body bsPrefix id = 'categor_body'>
+           
             <div className =' form-check '>
                              <input type="checkbox" class="form-check-input" id="CenterCheck disabled"></input>
                             <label for="CenterCheck" class="form-check-label disabled">23 August 2021</label> 
@@ -78,10 +94,22 @@ function pagefive() {
                             <input type="checkbox" class="form-check-input" id="musicCheck"></input>
                             <label for="musicCheck" class="form-check-label">15 August 2021</label>               
               </div>  
-              </div>
-              <div className ="uploads">
-              <h6 className ="heading">Video Tags</h6>
-            </div>
+              </Accordion.Body>
+  </Accordion.Item>
+  </Accordion>
+             
+
+
+
+             
+            <Accordion defaultActiveKey="0">
+  <Accordion.Item eventKey="0">
+    <Accordion.Header bsPrefix id = "category-head">Video Tag</Accordion.Header>
+    <Accordion.Body bsPrefix id = 'categor_body'>
+    </Accordion.Body>
+  </Accordion.Item>
+  </Accordion>
+              
             </div>
           </div>
           <div className="col-lg-10 videos_container ">
@@ -95,7 +123,7 @@ function pagefive() {
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
-                <h2 className="python_heading">
+                <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">

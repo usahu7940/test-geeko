@@ -37,12 +37,10 @@
     border: 2px solid black; background: #EDEDED;
     padding: 10px;
     border: none;
+    margin-right: 40px;
 }
 .search_box{
-    /* left: 63.28%;
-    right: 15%;
-    top: 25%;
-    bottom: 25%; */
+    font-size: 13px;
     border: none;
     color: #868686;
     outline: none;
@@ -59,6 +57,8 @@
     left: 20px;
     margin-left: -9px;
     color: blue;
+    margin-right: 11px;
+    font-size: 13px;
 }
 .link_item{
     color: rgba(22, 22, 22, 1);
@@ -108,7 +108,7 @@
 .arrow_image{
     margin-top: 13px;
 }
-@media (max-width:1200px) {
+@media (max-width:992px) {
     .arrow_box{
         text-align: center;
         padding-top: 0;
@@ -122,7 +122,6 @@
 }
 .drag_heading{
     font-weight: normal;
-  
     Font-size: 36px;   
     font-weight: 700;
 }
@@ -147,9 +146,10 @@
     text-align: center;
     flex-wrap: wrap;
     margin: 5px;
+    justify-content: center;
 }
 .box{
-    margin: 5px;
+   
     width : 130px;
     border: 2px solid rgba(98, 70, 254, 1);
     border-radius: 10px;
@@ -172,6 +172,12 @@
 .python_heading{
     font-size: 20px;
     font-weight: bolder;
+}
+.my_video{
+    font-weight: bold;
+}
+.myvideo_div{
+    justify-content: space-between;
 }
 .learn_box{
 cursor: pointer;
@@ -247,8 +253,8 @@ cursor: pointer;
 }
 .taj_images{
     position: absolute;
-    left: 44px;
-    top: -19px;
+    left: 32%;
+    top: -15%;
     width: 32%;
     
 }
@@ -306,10 +312,13 @@ cursor: pointer;
     display: flex;
     margin-bottom: 10px;
     margin-left: 20px;
+   
 }
 .vdo_heading{
     padding: 3px;
     padding-top: 13px;
+    font-weight: 700;
+    margin-top: 10px;
 }
 .para_heading{
     margin-left: 10px;
@@ -337,20 +346,11 @@ cursor: pointer;
     background-color:#E5E5E5;
   
 }
-/* .python_bcg{
-   position: relative;
 
-} */
-/* s */
 .vdo_btn{
     position: relative;
 }
-/* .paly_btn{
-    position: absolute;
-    top: 38%;
-    left: 46%;
-    width: 10%;
-}  */
+
 .paly_btn{
     position: absolute;
     top: 40%;
@@ -426,6 +426,11 @@ cursor: pointer;
     .language_items{
        
     }
+}
+.python_class{
+    color: black;
+    font-size: 13px;
+    margin-bottom: 0;
 }
 
 /* .{
@@ -545,7 +550,6 @@ cursor: pointer;
     border: 2px solid black; background: #EDEDED;
     padding: 10px;
     border: none;
-    margin-left: auto;
 }
 .search_boxxxx{
     border: none;
@@ -557,19 +561,7 @@ cursor: pointer;
     top: 18px;
     left: 20px;
 }
-@media (min-width:991px) {
-    .ellipse,.search_boxx{
-        
-    }
-    /* .main_container{
-        padding: 0px 0px 0px 0px !;
-    } */
-}
-@media (max-width:500px) {
-    .search_boxxxx{
-        width:70px
-    }  
-}
+
 .login_box{
    color: cornsilk;
     border-radius: 10px;
@@ -918,9 +910,6 @@ cursor: pointer;
     border-bottom: 2px solid rgba(194, 194, 194, 1);
     margin-top: 10px;
 }
-/* #second_part_col{
-    padding-left: 0;
-} */
 .empty_box{
     height: 118px;
     background-color: rgba(196, 196, 196, 1);
@@ -937,18 +926,13 @@ cursor: pointer;
      
     margin: 10px;
 }
-.IntroductionJava_image{
-    /* position: absolute; */
-}
+
 .right_image{
     position: absolute;
-    top: -7px;
-    left: 49px;
+    top: -10%;
+    left: 87%;
 
 }
-/* .UploadCustom _image{
-    position: absolute;
-} */
 .intoduction_java{
       position: relative;
     margin: 10px;
@@ -1216,4 +1200,30 @@ cursor: pointer;
     border-radius: 5px;
     font-size: 12px;
     padding: 3px;
+   
 }
+#category-head button{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-weight: 700;
+    padding-left: 1.8rem;
+}
+#categor_body{
+    background-color: rgba(242, 242, 242, 1);
+    padding-left: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#category-head{
+    margin-bottom: 0;   
+}
+#categor_body form-check{
+    margin-bottom: 0;
+}
+#category-head button:focus{
+    box-shadow: none;
+}
+ #drop__menu{
+    background-color: rgba(242, 242, 242, 1);
+   
+ }
