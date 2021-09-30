@@ -542,6 +542,7 @@ function App() {
                   </div>
                   </div>
                   
+                  
               </div>
               <div  id = "main_container" className ="mt-3">
                 <div className= "d-flex " id ="ques_select_box">
@@ -586,7 +587,7 @@ function App() {
                   </div>
                   
               </div>
-              <div  id =  "plusss">
+              <div  className =  "plus">
                   <div>
                     <img src = {plus} className = "plus_logo"/>
                   </div>
