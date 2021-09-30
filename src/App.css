@@ -169,10 +169,7 @@
     color: rgba(98, 70, 254, 1);
     margin-bottom: -0.2px;
 }
-.python_heading{
-    font-size: 20px;
-    font-weight: bolder;
-}
+
 .my_video{
     font-weight: bold;
 }
@@ -345,6 +342,10 @@ cursor: pointer;
 .main_container{
     background-color:#E5E5E5;
   
+}
+#python_heading{
+    font-size: 20px;
+    font-weight: bolder;
 }
 
 .vdo_btn{

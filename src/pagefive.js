@@ -143,7 +143,7 @@ function pagefive() {
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
-                <h2 className="python_heading">
+              <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -163,7 +163,7 @@ function pagefive() {
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
-                <h2 className="python_heading">
+              <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -184,7 +184,7 @@ function pagefive() {
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
-                <h2 className="python_heading">
+              <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -205,7 +205,7 @@ function pagefive() {
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
-                <h2 className="python_heading">
+              <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -226,7 +226,7 @@ function pagefive() {
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
-                <h2 className="python_heading">
+              <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -247,7 +247,7 @@ function pagefive() {
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
-                <h2 className="python_heading">
+              <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -268,7 +268,7 @@ function pagefive() {
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
-                <h2 className="python_heading">
+              <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">

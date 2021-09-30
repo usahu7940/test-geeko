@@ -119,7 +119,7 @@ function VideoStatus() {
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_class">Class 12, Commerce, Chapter 13</p>
-                <h2 className="python_heading">
+              <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -141,7 +141,7 @@ The test series follows very  logical sequence of Basic to Advance
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_class">Class 12, Commerce, Chapter 13</p>
-                <h2 className="python_heading">
+              <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -161,7 +161,7 @@ The test series follows very  logical sequence of Basic to Advance
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_class">Class 12, Commerce, Chapter 13</p>
-                <h2 className="python_heading">
+              <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -181,7 +181,7 @@ The test series follows very  logical sequence of Basic to Advance
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_class">Class 12, Commerce, Chapter 13</p>
-                <h2 className="python_heading">
+              <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -201,7 +201,7 @@ The test series follows very  logical sequence of Basic to Advance
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_class">Class 12, Commerce, Chapter 13</p>
-                <h2 className="python_heading">
+              <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -221,7 +221,7 @@ The test series follows very  logical sequence of Basic to Advance
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_class">Class 12, Commerce, Chapter 13</p>
-                <h2 className="python_heading">
+              <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -241,7 +241,7 @@ The test series follows very  logical sequence of Basic to Advance
               </div>
               <div className = 'col-md-8 para_heading'>
               <p className="python_class">Class 12, Commerce, Chapter 13</p>
-                <h2 className="python_heading">
+              <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
