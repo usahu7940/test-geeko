@@ -27,12 +27,12 @@ function Header() {
                     </Link>
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <NavLink className="nav-link link " id ="home_head" to={''} activeClassName={"active"} exact={true}>
+                            <NavLink className="nav-link link me-3" id ="home_head" to={''} activeClassName={"active"} exact={true}>
                                 Home
                             </NavLink>
                         </li>
-                        <li className="nav-item">
-                            <NavLink className="nav-link" id ="home_head" to={"videos"} activeClassName={"active"}>
+                        <li className="nav-item ">
+                            <NavLink className="nav-link me-3" id ="home_head" to={"videos"} activeClassName={"active"}>
                                 My videos
                             </NavLink>
                         </li>

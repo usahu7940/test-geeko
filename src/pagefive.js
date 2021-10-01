@@ -28,7 +28,7 @@ function pagefive() {
            
             <Accordion defaultActiveKey="0">
   <Accordion.Item eventKey="0">
-    <Accordion.Header bsPrefix id = "category-head">Category</Accordion.Header>
+    <Accordion.Header bsPrefix id = "category-head">Categories</Accordion.Header>
     <Accordion.Body bsPrefix id = 'categor_body'>
             
             <div className =' form-check'>
@@ -37,12 +37,11 @@ function pagefive() {
               </div>  
               <div className =' form-check'>
                             <input type="checkbox" class="form-check-input" id="musicCheck disabled"></input>
-                           
-                            <label for="musicCheck" class="form-check-label disabled">Physics</label>
+                            <label for="musicCheck" class="form-check-label disabled">Chemistry</label>
               </div>  
               <div className =' form-check'>
                             <input type="checkbox" class="form-check-input" id="musicCheck disabled"></input>
-                            <label for="musicCheck" class="form-check-label disabled">Physics</label>
+                            <label for="musicCheck" class="form-check-label disabled">Maths</label>
               </div>  
             
             </Accordion.Body>
@@ -99,9 +98,6 @@ function pagefive() {
   </Accordion>
              
 
-
-
-             
             <Accordion defaultActiveKey="0">
   <Accordion.Item eventKey="0">
     <Accordion.Header bsPrefix id = "category-head">Video Tag</Accordion.Header>
@@ -121,7 +117,7 @@ function pagefive() {
               <img src={rectangle} className="rectangle w-100" />
                   <img src={time} className="time" />
               </div>
-              <div className = 'col-md-8 para_heading'>
+              <div className = 'col-xl-10 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
                 <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
@@ -131,19 +127,20 @@ function pagefive() {
                   NEET chapterwise, which will be scheduled for whole year.
                 </p>
                 <div>
-                  <img src={eye} className="eye" />56,621 <img src={like} className="like" />650 <img src={message}
-                    className="message" />57
+                  <img src={eye} className="eye" /><span className = 'seen_count'>56,621 </span><img src={like} className="like" />
+                      <span className = 'seen_count'>650</span> <img src={message} className="message" />
+                      <span className = 'seen_count'>57</span>
                 </div>   
               </div>
             </div>
             <div className="Learning_videos">
-              <div className ="col-md-2">
+            <div className ="col-md-2">
               <img src={rectangle} className="rectangle w-100" />
                   <img src={time} className="time" />
               </div>
-              <div className = 'col-md-8 para_heading'>
+              <div className = 'col-xl-10 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
-              <h2 id="python_heading">
+                <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -151,19 +148,20 @@ function pagefive() {
                   NEET chapterwise, which will be scheduled for whole year.
                 </p>
                 <div>
-                  <img src={eye} className="eye" />56,621 <img src={like} className="like" />650 <img src={message}
-                    className="message" />57
+                  <img src={eye} className="eye" /><span className = 'seen_count'>56,621 </span><img src={like} className="like" />
+                      <span className = 'seen_count'>650</span> <img src={message} className="message" />
+                      <span className = 'seen_count'>57</span>
                 </div>   
               </div>
             </div>
             <div className="Learning_videos">
-              <div className ="col-md-2">
+            <div className ="col-md-2">
               <img src={rectangle} className="rectangle w-100" />
                   <img src={time} className="time" />
               </div>
-              <div className = 'col-md-8 para_heading'>
+              <div className = 'col-xl-10 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
-              <h2 id="python_heading">
+                <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -171,20 +169,21 @@ function pagefive() {
                   NEET chapterwise, which will be scheduled for whole year.
                 </p>
                 <div>
-                  <img src={eye} className="eye" />56,621 <img src={like} className="like" />650 <img src={message}
-                    className="message" />57
+                  <img src={eye} className="eye" /><span className = 'seen_count'>56,621 </span><img src={like} className="like" />
+                      <span className = 'seen_count'>650</span> <img src={message} className="message" />
+                      <span className = 'seen_count'>57</span>
                 </div>   
               </div>
             </div>
             
             <div className="Learning_videos">
-              <div className ="col-md-2">
+            <div className ="col-md-2">
               <img src={rectangle} className="rectangle w-100" />
                   <img src={time} className="time" />
               </div>
-              <div className = 'col-md-8 para_heading'>
+              <div className = 'col-xl-10 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
-              <h2 id="python_heading">
+                <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -192,20 +191,21 @@ function pagefive() {
                   NEET chapterwise, which will be scheduled for whole year.
                 </p>
                 <div>
-                  <img src={eye} className="eye" />56,621 <img src={like} className="like" />650 <img src={message}
-                    className="message" />57
+                  <img src={eye} className="eye" /><span className = 'seen_count'>56,621 </span><img src={like} className="like" />
+                      <span className = 'seen_count'>650</span> <img src={message} className="message" />
+                      <span className = 'seen_count'>57</span>
                 </div>   
               </div>
             </div>
            
             <div className="Learning_videos">
-              <div className ="col-md-2">
+            <div className ="col-md-2">
               <img src={rectangle} className="rectangle w-100" />
                   <img src={time} className="time" />
               </div>
-              <div className = 'col-md-8 para_heading'>
+              <div className = 'col-xl-10 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
-              <h2 id="python_heading">
+                <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -213,20 +213,21 @@ function pagefive() {
                   NEET chapterwise, which will be scheduled for whole year.
                 </p>
                 <div>
-                  <img src={eye} className="eye" />56,621 <img src={like} className="like" />650 <img src={message}
-                    className="message" />57
+                  <img src={eye} className="eye" /><span className = 'seen_count'>56,621 </span><img src={like} className="like" />
+                      <span className = 'seen_count'>650</span> <img src={message} className="message" />
+                      <span className = 'seen_count'>57</span>
                 </div>   
               </div>
             </div>
             
             <div className="Learning_videos">
-              <div className ="col-md-2">
+            <div className ="col-lg-2">
               <img src={rectangle} className="rectangle w-100" />
                   <img src={time} className="time" />
               </div>
-              <div className = 'col-md-8 para_heading'>
+              <div className = 'col-xl-10 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
-              <h2 id="python_heading">
+                <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -234,20 +235,21 @@ function pagefive() {
                   NEET chapterwise, which will be scheduled for whole year.
                 </p>
                 <div>
-                  <img src={eye} className="eye" />56,621 <img src={like} className="like" />650 <img src={message}
-                    className="message" />57
+                  <img src={eye} className="eye" /><span className = 'seen_count'>56,621 </span><img src={like} className="like" />
+                      <span className = 'seen_count'>650</span> <img src={message} className="message" />
+                      <span className = 'seen_count'>57</span>
                 </div>   
               </div>
             </div>
             
             <div className="Learning_videos">
-              <div className ="col-md-2">
+            <div className ="col-md-2">
               <img src={rectangle} className="rectangle w-100" />
                   <img src={time} className="time" />
               </div>
-              <div className = 'col-md-8 para_heading'>
+              <div className = 'col-xl-10 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
-              <h2 id="python_heading">
+                <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -255,20 +257,21 @@ function pagefive() {
                   NEET chapterwise, which will be scheduled for whole year.
                 </p>
                 <div>
-                  <img src={eye} className="eye" />56,621 <img src={like} className="like" />650 <img src={message}
-                    className="message" />57
+                  <img src={eye} className="eye" /><span className = 'seen_count'>56,621 </span><img src={like} className="like" />
+                      <span className = 'seen_count'>650</span> <img src={message} className="message" />
+                      <span className = 'seen_count'>57</span>
                 </div>   
               </div>
             </div>
             
             <div className="Learning_videos">
-              <div className ="col-md-2">
+            <div className ="col-md-2">
               <img src={rectangle} className="rectangle w-100" />
                   <img src={time} className="time" />
               </div>
-              <div className = 'col-md-8 para_heading'>
+              <div className = 'col-xl-10 para_heading'>
               <p className="python_para1">Python, Inheritance</p>
-              <h2 id="python_heading">
+                <h2 id="python_heading">
                   Learn how to set up the machines in the robotics belt
                 </h2>
                 <p className="python_para">
@@ -276,8 +279,9 @@ function pagefive() {
                   NEET chapterwise, which will be scheduled for whole year.
                 </p>
                 <div>
-                  <img src={eye} className="eye" />56,621 <img src={like} className="like" />650 <img src={message}
-                    className="message" />57
+                  <img src={eye} className="eye" /><span className = 'seen_count'>56,621 </span><img src={like} className="like" />
+                      <span className = 'seen_count'>650</span> <img src={message} className="message" />
+                      <span className = 'seen_count'>57</span>
                 </div>   
               </div>
             </div>

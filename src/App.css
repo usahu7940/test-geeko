@@ -1,8 +1,8 @@
-*{
+/* *{
     font-family: 'Poppins', sans-serif;
-}
+} */
 .main_section{
-    background-color: #E5E5E5;
+    background-color: #f5f5f5;
 }
 .main-nav{
     border-bottom: 3.3px solid 
@@ -40,20 +40,21 @@
     margin-right: 40px;
 }
 .search_box{
-    font-size: 13px;
+    font-size: 12px;
     border: none;
     color: #868686;
     outline: none;
     background-color: transparent; 
     width: 100%;
     margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
 } 
 .search-div{
-    width: 37%;
+    width: 45%;
 }
 .search_icon{
     position: absolute;
-    top: 18px;
+    top: 19px;
     left: 20px;
     margin-left: -9px;
     color: blue;
@@ -105,31 +106,45 @@
 #drag_video{
     background-color: white;
 }
-.arrow_image{
-    margin-top: 13px;
-}
-@media (max-width:992px) {
-    .arrow_box{
-        text-align: center;
-        padding-top: 0;
-    }
-    .drag_box{
-        text-align: center;
-    }
-    .arrow_image{
-        margin: 0;
-    }
+/* .arrow_box{
+    margin-left: 1rem;
+    
+} */
+
+.drag_box{
+    margin-left: 1rem;
+    padding-right: 0;
 }
 .drag_heading{
-    font-weight: normal;
-    Font-size: 36px;   
+    Font-size: 26px;   
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+.video_format{
+    Font-size: 13px;   
+    color: rgba(181, 181, 181, 1);
+    font-family: 'Poppins', sans-serif;
 }
 .duration{
     color: rgba(98, 70, 254, 1);
     margin-top: -10px;
     font-size: 10px;
 }
+@media (max-width:1199px) {
+    .drag_heading{
+        font-size: 22px;
+    }
+    .video_format{
+        font-size: 10px;
+    }
+    .duration{
+        font-size: 8px;
+    }
+    .arrow_image{
+        width: 65px;
+    }
+}
+
 .most_recent_btn{
     border: none;
 }
@@ -137,7 +152,7 @@
     text-align: right;
 }
 .box_heading{
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: -1px;
     font-weight: 700;
 }
@@ -147,10 +162,12 @@
     flex-wrap: wrap;
     margin: 5px;
     justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
 }
 .box{
    
-    width : 130px;
+    width: 117px;
     border: 2px solid rgba(98, 70, 254, 1);
     border-radius: 10px;
     color: rgba(98, 70, 254, 1);
@@ -171,20 +188,48 @@
 }
 
 .my_video{
-    font-weight: bold;
+    font-weight: 600;
+   
 }
 .myvideo_div{
     justify-content: space-between;
+    margin-bottom: -10px;
 }
 .learn_box{
 cursor: pointer;
 }
-.python_para,.python_heading{
+.python_para{
     margin-bottom: -0.2px;
+    font-size: 11px;
 }
-.rectangle{
+#python_heading{
+    margin-bottom: 0;
+    font-size: 19px;
+    font-weight: bolder;
+}
+.seen_count{
+    font-size: 12px;
+}
+.video_container{
+    font-family: 'Poppins', sans-serif;
+}
+.video_recent_box{
+    font-family: 'Poppins', sans-serif;
+}
+#seclet_Most_recent{
+    color: black;
+}
+/* .rectangle{
     position: relative;
+    width: 30%;
+    
 }
+@media (max-width:1000px) {
+    .rectangle{
+        width: 100%;
+       
+    }
+} */
 .time{
     position: absolute;
     margin-left: -30px;
@@ -193,7 +238,7 @@ cursor: pointer;
 }
 .eye ,.like{
     margin-right:  5px;
-    margin-top:  -4px;  
+   
 }
 .like,.message{
     margin-left: 10px;
@@ -227,13 +272,14 @@ cursor: pointer;
     color:blue;
     margin-top: 5px;
     padding-bottom: 0;
+    font-family: 'Montserrat', sans-serif;
    
 }
 #aroma_name_view{
     font-family: 500;
     font-size: 12px;
     margin-top: -7px;
-    font-weight: bold;
+    font-weight: 500;
 }
 .aroma_pavlo{
     margin-top: -5px;
@@ -265,6 +311,7 @@ cursor: pointer;
 .third-prize,.Second-prize{
     margin-top: 50px;
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 .number{
     font-size: 13px;
@@ -284,6 +331,7 @@ cursor: pointer;
    padding: 5px;
    display: flex;
    margin: 10px;
+   align-items: center;
 }
 .saiima{
     width: 20%;
@@ -324,16 +372,20 @@ cursor: pointer;
     background-color:#E5E5E5; 
 }
 .Learning_videos{
+    cursor: pointer;
     display: flex;
     margin-bottom: 10px;
     margin-left: 20px;
-   
+    font-family: 'Poppins', sans-serif;
+    
 }
 .vdo_heading{
     padding: 3px;
     padding-top: 13px;
     font-weight: 700;
     margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
 }
 .para_heading{
     margin-left: 10px;
@@ -360,10 +412,6 @@ cursor: pointer;
 .main_container{
     background-color:#E5E5E5;
   
-}
-#python_heading{
-    font-size: 20px;
-    font-weight: bolder;
 }
 
 .vdo_btn{
@@ -562,6 +610,7 @@ cursor: pointer;
 }
 #home_head{
     font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
 .search_boxx{
     position: relative;
@@ -887,7 +936,7 @@ cursor: pointer;
     margin-top: 10px;
 }
 #Select_category{
-    padding: 7px 18px 7px 19px;
+    padding: 7px 18px 7px 8px;
     border-radius: 5px ;
     color: rgba(164, 164, 164, 1);
     font-size: 15px;
@@ -1042,6 +1091,7 @@ cursor: pointer;
     cursor: pointer;
     margin-top: 10px;
     padding: 2px 15px 2px 15px;
+    background-color:rgba(98, 70, 254, 1);
 }
 .next__btn{
     text-align: right;
@@ -1056,9 +1106,8 @@ cursor: pointer;
     outline: none;
     background-color: rgba(219, 219, 219, 1);
     margin-left: 10px;
-    padding: 0px 30px 0px 0px;
     border-radius: 3px;
-    font-size: 12px;
+    font-size: 15px;
     color: rgba(133, 133, 133, 1);
 }
 #ques_select_box{
@@ -1095,26 +1144,27 @@ cursor: pointer;
 .option_image_logo{
     position: absolute;
     width: 15px;
-    top: 12px;
+    top: 13px;
 }
 .option_heading{
     margin-left: 18px;
     color: rgba(116, 116, 116, 1);
     margin-bottom: 0;
+    font-weight: normal;
 }
 #plus{
     position: relative;
-    width: 38px;
-    height: 38px;
+    width: 39px;
+    height: 41px;
     background-color: rgba(197, 197, 197, 1);
     border-radius: 5px;
     margin-left: 7px;
     margin-top: auto;
 }
 .plus_logo{
-    top: 11px;
-    width: 17px;
-    left: 11px;
+    top: 13px;
+    width: 14px;
+    left: 13px;
     position: absolute;
 }
 #plusss div {
@@ -1175,7 +1225,7 @@ cursor: pointer;
     margin: auto;
 }
 .Successful_heading{
-    font-weight: 700;
+    font-weight: 500;
 }
 .sucessful_border{
     border-bottom: 2px solid rgba(194, 194, 194, 1);
@@ -1189,10 +1239,14 @@ cursor: pointer;
 .para_sucess{
     text-align: center;
     margin-top: 18px;
-    font-weight:700;
+    font-weight:500;
 }
 .okay_button{
     text-align: center;
+   
+}
+#okayBtn{
+    background-color:rgba(98, 70, 254, 1);
 }
 #togel{
     background-color: white;
@@ -1246,14 +1300,38 @@ cursor: pointer;
 }
 #category-head{
     margin-bottom: 0;   
+    font-family: 'Poppins', sans-serif;
+  
+}
+#category-head button{
+    font-size: 13px;
 }
 #categor_body form-check{
     margin-bottom: 0;
 }
+
 #category-head button:focus{
     box-shadow: none;
 }
  #drop__menu{
-    background-color: rgba(242, 242, 242, 1);
-   
+    background-color: rgba(242, 242, 242, 1); 
+    
+ }
+ #model-dialog{
+     max-width: 800px;
+    
+ }
+ .content_class{
+     max-width: 800px;
+     border:2px solid black;
+ }
+ #heading_section{
+     background-color: rgb(255, 255, 255);
+     border-radius: 5px;    
+ }
+ .rhs_lhs_heading{
+    margin-bottom: auto;
+     font-weight: bold;
+     padding: 10px;
+     border-bottom: 2px solid black;
  }

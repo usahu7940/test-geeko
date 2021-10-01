@@ -43,18 +43,18 @@ function App() {
           <div className="py-4 ">
             <div className="container  ">
               <div className="row justify-content-center">
-                <div className="col-lg-6 col-md-8">
+                <div className="col-md-6 col-12">
                   <div
-                    className="row justify-content-center drag py-5"
+                    className="row  drag justify-content-center py-5"
                     onClick={handleShow}>
-                    <div className="col-xl-2 arrow_box">
+                    <div className="col-md-2 arrow_box">
                       <img src={arrow} className = "arrow_image" />
                     </div>
-                    <div className="col-xl-9 drag_box">
+                    <div className="col-md-8 drag_box ">
                       <h1 className="drag_heading">
                         Drag or select your video
                       </h1>
-                      <p>Video formats supported: MP4, FLV, WEBM, & GIF</p>
+                      <p className = "video_format">Video formats supported: MP4, FLV, WEBM, & GIF</p>
                       <p className="duration">
                         Note: Maximum duration of video can be 3 minutes
                       </p>
@@ -66,8 +66,8 @@ function App() {
           </div>
           <div className="container ">
             <div className="row justify-content-center">
-              <div className="col-md-12 justify-content-center">
-                <div className="boxes justify-content: center;">
+              
+                <div className="boxes ">
                   <div className=" box me-2 mt-1">
                     <h1 className="box_heading">23rd</h1>
                     <p className="box_para">rank</p>
@@ -95,30 +95,30 @@ function App() {
                 </div>
               </div>
             </div>
-          </div>
+          
           <div className="container">
-            <div className="row justify-content-center py-3">
-              <div className="col-md-9 ">
-                <div className="row ">
+            <div className="row justify-content-center mt-4">
+              <div className = "col-md-10">
+              <div className="container col-md-12 ">
+                <div className="row video_recent_box">
                   <div className="col-md-12 d-flex myvideo_div justify-content-space-between">
                     <h6 className = "my_video">My Videos </h6>
-                    <select className = "selector-box">
+                    <select className = "selector-box" id ="seclet_Most_recent">
                       <option>Most recent</option>
                     </select>
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className="container">
-            <div className="row justify-content-center py-3">
-              <div className="col-md-9 ">
+           
+          <div className="container video_container">
+            <div className="row justify-content-center ">
+              <div className="col-lg-12 ">
                 <div className="row learn_box">
                   <div className="col-xl-2 col-md-3 ">
-                    <div>
+                    
                       <img src={rectangle} className="rectangle w-100" />
                       <img src={time} className="time" />
-                    </div>
+                    
                   </div>
                   <div className="col-lg-9 col-md-8">
                     <p className="python_para1">Python, Inheritance</p>
@@ -131,14 +131,14 @@ function App() {
                     </p>
                     <div>
                       <img src={eye} className="eye" />
-                      56,621 <img src={like} className="like" />
-                      650 <img src={message} className="message" />
-                      57
+                      <span className = 'seen_count'>56,621 </span><img src={like} className="like" />
+                      <span className = 'seen_count'>650</span> <img src={message} className="message" />
+                      <span className = 'seen_count'>57</span>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-md-9 py-3">
+              <div className="col-lg-12 py-3">
                 <div className="row">
                 <div className="col-xl-2 col-md-3 ">
                     <div>
@@ -157,14 +157,14 @@ function App() {
                     </p>
                     <div>
                       <img src={eye} className="eye" />
-                      56,621 <img src={like} className="like" />
-                      650 <img src={message} className="message" />
-                      57
+                      <span className = 'seen_count'>56,621 </span><img src={like} className="like" />
+                      <span className = 'seen_count'>650</span> <img src={message} className="message" />
+                      <span className = 'seen_count'>57</span>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-md-9 py-3 ">
+              <div className="col-lg-12 py-3 ">
                 <div className="row">
                 <div className="col-xl-2 col-md-3 ">
                     <div>
@@ -183,14 +183,14 @@ function App() {
                     </p>
                     <div>
                       <img src={eye} className="eye" />
-                      56,621 <img src={like} className="like" />
-                      650 <img src={message} className="message" />
-                      57
+                      <span className = 'seen_count'>56,621 </span><img src={like} className="like" />
+                      <span className = 'seen_count'>650</span> <img src={message} className="message" />
+                      <span className = 'seen_count'>57</span>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-md-9 py-3">
+              <div className="col-lg-12 py-3">
                 <div className="row">
                 <div className="col-xl-2 col-md-3 ">
                     <div>
@@ -209,14 +209,14 @@ function App() {
                     </p>
                     <div>
                       <img src={eye} className="eye" />
-                      56,621 <img src={like} className="like" />
-                      650 <img src={message} className="message" />
-                      57
+                      <span className = 'seen_count'>56,621 </span><img src={like} className="like" />
+                      <span className = 'seen_count'>650</span> <img src={message} className="message" />
+                      <span className = 'seen_count'>57</span>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="col-md-9 ">
+              <div className="col-lg-12 ">
                 <div className="row">
                 <div className="col-xl-2 col-md-3 ">
                     <div>
@@ -224,7 +224,7 @@ function App() {
                       <img src={time} className="time" />
                     </div>
                   </div>
-                  <div className="col-lg-9 col-md-8">
+                  <div className="col-lg-10 ">
                     <p className="python_para1">Python, Inheritance</p>
                     <h2 id="python_heading">
                       Learn how to set up the machines in the robotics belt
@@ -235,14 +235,17 @@ function App() {
                     </p>
                     <div>
                       <img src={eye} className="eye" />
-                      56,621 <img src={like} className="like" />
-                      650 <img src={message} className="message" />
-                      57
+                      <span className = 'seen_count'>56,621 </span><img src={like} className="like" />
+                      <span className = 'seen_count'>650</span> <img src={message} className="message" />
+                      <span className = 'seen_count'>57</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+           </div>
+          </div>
           </div>
         </section>
       </div>
@@ -620,7 +623,7 @@ function App() {
         <div className = "sucessful_border">
         </div>
         <div className = "okay_button">
-        <button className ="btn btn-primary mt-3"  onClick = {handleShowSubmit}>Okay</button>
+        <button className ="btn btn-primary mt-3" id ="okayBtn"  onClick = {handleShowSubmit}>Okay</button>
         </div>
 
 
